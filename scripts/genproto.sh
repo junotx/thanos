@@ -68,3 +68,19 @@ for dir in ${CORTEX_DIRS}; do
   popd
 done
 popd
+
+# Generate a protoset containing all of the input files
+PROTO_FILES=""
+for dir in ${DIRS}; do
+  PROTO_FILES=${PROTO_FILES}" pkg/"${dir}"/*.proto"
+done
+for dir in ${CORTEX_DIRS}; do
+  PROTO_FILES=${PROTO_FILES}" internal/"${dir}"/*.proto"
+done
+${PROTOC_BIN} \
+  -I=pkg \
+  -I=internal \
+  -I="${GOGOPROTO_PATH}" \
+  --include_imports \
+  -othanos.protoset \
+  ${PROTO_FILES}
