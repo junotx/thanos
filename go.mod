@@ -67,7 +67,7 @@ require (
 	github.com/redis/rueidis v1.0.45-alpha.1
 	github.com/seiflotfy/cuckoofilter v0.0.0-20240715131351-a2f2c23f1771
 	github.com/sony/gobreaker v0.5.0
-	github.com/stretchr/testify v1.9.0
+	github.com/stretchr/testify v1.10.0
 	github.com/thanos-io/objstore v0.0.0-20241111205755-d1dd89d41f97
 	github.com/thanos-io/promql-engine v0.0.0-20241217103156-9dbff30059cf
 	github.com/uber/jaeger-client-go v2.30.0+incompatible
@@ -119,7 +119,7 @@ require (
 require (
 	github.com/tjhop/slog-gokit v0.1.2
 	go.opentelemetry.io/collector/pdata v1.14.1
-	go.opentelemetry.io/collector/semconv v0.108.1
+	go.opentelemetry.io/collector/semconv v0.119.0
 )
 
 require github.com/dgryski/go-metro v0.0.0-20200812162917-85c65e2d0165 // indirect
