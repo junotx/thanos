@@ -91,8 +91,8 @@ require (
 	go4.org/intern v0.0.0-20230525184215-6c62f75575cb
 	golang.org/x/crypto v0.31.0
 	golang.org/x/net v0.33.0
-	golang.org/x/sync v0.10.0
-	golang.org/x/text v0.21.0
+	golang.org/x/sync v0.11.0
+	golang.org/x/text v0.22.0
 	golang.org/x/time v0.7.0
 	google.golang.org/grpc v1.66.0
 	google.golang.org/grpc/examples v0.0.0-20211119005141-f45e61797429
