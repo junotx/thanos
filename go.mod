@@ -45,7 +45,7 @@ require (
 	github.com/leanovate/gopter v0.2.9
 	github.com/lightstep/lightstep-tracer-go v0.25.0
 	github.com/lovoo/gcloud-opentracing v0.3.0
-	github.com/miekg/dns v1.1.62
+	github.com/miekg/dns v1.1.63
 	github.com/minio/sha256-simd v1.0.1
 	github.com/mitchellh/go-ps v1.0.0
 	github.com/mwitkow/go-conntrack v0.0.0-20190716064945-2f068394615f
