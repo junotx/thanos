@@ -2,6 +2,8 @@ module github.com/thanos-io/thanos
 
 go 1.23.0
 
+toolchain go1.24.1
+
 require (
 	capnproto.org/go/capnp/v3 v3.0.0-alpha.30
 	cloud.google.com/go/trace v1.10.12
@@ -89,10 +91,10 @@ require (
 	go.uber.org/automaxprocs v1.5.3
 	go.uber.org/goleak v1.3.0
 	go4.org/intern v0.0.0-20230525184215-6c62f75575cb
-	golang.org/x/crypto v0.31.0
-	golang.org/x/net v0.33.0
-	golang.org/x/sync v0.10.0
-	golang.org/x/text v0.21.0
+	golang.org/x/crypto v0.36.0
+	golang.org/x/net v0.38.0
+	golang.org/x/sync v0.12.0
+	golang.org/x/text v0.23.0
 	golang.org/x/time v0.7.0
 	google.golang.org/grpc v1.66.0
 	google.golang.org/grpc/examples v0.0.0-20211119005141-f45e61797429
@@ -269,7 +271,7 @@ require (
 	golang.org/x/exp v0.0.0-20240613232115-7f521ea00fb8 // indirect
 	golang.org/x/mod v0.21.0 // indirect
 	golang.org/x/oauth2 v0.23.0 // indirect
-	golang.org/x/sys v0.28.0 // indirect
+	golang.org/x/sys v0.31.0 // indirect
 	golang.org/x/tools v0.24.0 // indirect
 	gonum.org/v1/gonum v0.15.0 // indirect
 	google.golang.org/api v0.195.0 // indirect
